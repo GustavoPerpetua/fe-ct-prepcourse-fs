@@ -9,7 +9,7 @@ function esVocal(letra) {
   }
 
   if(vocales.includes(letra)){
-    return "es vocal"
+    return "Es vocal"
   }else{
     return "Dato incorrecto"
   }

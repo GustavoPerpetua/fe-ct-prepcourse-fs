@@ -7,12 +7,12 @@ function esMayorDeEdad(fechaNacimiento) {
   // Tu código:
   const fechaNac = new Date(fechaNacimiento);
   const hoy = new Date();
-  const edad = hoy.getFullYear - fechaNac.getFullYear;
-  const diferenciaMes = hoy.getMonth() - fechaNac.getMonth();
+  let edad = hoy.getFullYear - fechaNac.getFullYear;
+
 
   if (
-    diferenciaMes < 0 ||
-    (diferenciaMes === 0 && hoy.getDate() < fechaNac.getDate())
+    hoy.getMonth() < fechaNac.getMonth() ||
+    (hoy.getMonth() === fechaNac.getMonth() && hoy.getDate() < fechaNac.getDate())
   ) {
     edad--;
   }
