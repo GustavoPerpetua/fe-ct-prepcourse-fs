@@ -1,8 +1,6 @@
 function encontrarElemento(elemento, array) {
-  // Busca el elemento pasado por argumento dentro del array.
-  // Si no se encuentra, retorna -1.
-  // Tu código:
-  
+  return array.find(function (elementoDelArray) {
+    return elementoDelArray === elemento;
+  }) || -1;
 }
-
 module.exports = encontrarElemento;
