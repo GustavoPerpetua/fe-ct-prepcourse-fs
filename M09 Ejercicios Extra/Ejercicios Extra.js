@@ -144,6 +144,8 @@ function buscoInterseccion(array1, array2) {
   return elementosComunes;
 }
 
+console.log(!!"texto");
+
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
   deObjetoAarray,
@@ -155,3 +157,8 @@ module.exports = {
   sortArray,
   buscoInterseccion,
 };
+
+function foo(a,b){
+  return a+b
+}
+var myvar = foo("hola", "mundo")

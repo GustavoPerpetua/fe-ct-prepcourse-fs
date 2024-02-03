@@ -6,5 +6,5 @@ function crearGato(nombre, edad) {
   // Retornar el objeto.
   // Tu código:
 }
-
+console.log(!!"texto");
 module.exports = crearGato;
