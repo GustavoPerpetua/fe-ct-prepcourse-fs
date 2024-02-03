@@ -24,4 +24,6 @@ console.log(esNumeroPrimo(0));
 console.log(esNumeroPrimo(12));
 console.log(esNumeroPrimo(-1));
 console.log(esNumeroPrimo(-4));
+
+
 module.exports = esNumeroPrimo;
